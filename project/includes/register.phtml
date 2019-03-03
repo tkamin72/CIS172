@@ -1,0 +1,234 @@
+<?php
+
+?>
+
+<!--<script type="text/javascript">
+
+    function checkForm(form)
+    {
+        if(form.customer_password.value != "" && form.customer_password.value == form.customer_password_check.value) {
+            if(form.customer_password.value.length < 6) {
+                alert("Error: Password must contain at least six characters!");
+                form.pwd1.focus();
+                return false;
+            }
+            if(form.customer_password.value == form.username.value) {
+                alert("Error: Password must be different from Username!");
+                form.pwd1.focus();
+                return false;
+            }
+            re = /[0-9]/;
+            if(!re.test(form.customer_password.value)) {
+                alert("Error: password must contain at least one number (0-9)!");
+                form.pwd1.focus();
+                return false;
+            }
+            re = /[a-z]/;
+            if(!re.test(form.customer_password.value)) {
+                alert("Error: password must contain at least one lowercase letter (a-z)!");
+                form.customer_password.focus();
+                return false;
+            }
+            re = /[A-Z]/;
+            if(!re.test(form.customer_password.value)) {
+                alert("Error: password must contain at least one uppercase letter (A-Z)!");
+                form.pwd1.focus();
+                return false;
+            }
+        } else {
+            alert("Error: Please check that you've entered and confirmed your password!");
+            form.customer_password.focus();
+            return false;
+        }
+
+        alert("You entered a valid password: " + form.customer_password.value);
+        return true;
+    }
+
+</script>-->
+
+<br><br>
+<h1 class="cursive">Register</h1>
+<p>Please fill in this form to create an account.</p>
+<hr>
+<div class="container">
+    <form action="index.php" method="post"">
+        <input type="hidden" name="formtype" value="register">
+        <div class="row">
+            <div class="col-25">
+                <label for="fname"><b>First Name:</b></label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="fname" name="customer_fname" required="required" placeholder="First Name..">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="lname"><b>Last Name:</b></label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="lname" name="customer_lname" required="required" placeholder="Last Name..">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="street"><b>Street Address:</b></label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="street" name="cust_street_address" required="required" placeholder="Street Address..">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="city"><b>City:</b></label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="city" name="cust_address_city" required="required" placeholder="City..">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="state"><b>State:</b></label>
+            </div>
+            <div class="col-75">
+                <select id="state" name="cust_address_state" placeholder="Select a State.." required="required">
+                    <option value="AL">AL</option>
+                    <option value="AK">AK</option>
+                    <option value="AR">AR</option>
+                    <option value="AZ">AZ</option>
+                    <option value="CA">CA</option>
+                    <option value="CO">CO</option>
+                    <option value="CT">CT</option>
+                    <option value="DC">DC</option>
+                    <option value="DE">DE</option>
+                    <option value="FL">FL</option>
+                    <option value="GA">GA</option>
+                    <option value="HI">HI</option>
+                    <option value="IA">IA</option>
+                    <option value="ID">ID</option>
+                    <option value="IL">IL</option>
+                    <option value="IN">IN</option>
+                    <option value="KS">KS</option>
+                    <option value="KY">KY</option>
+                    <option value="LA">LA</option>
+                    <option value="MA">MA</option>
+                    <option value="MD">MD</option>
+                    <option value="ME">ME</option>
+                    <option value="MI">MI</option>
+                    <option value="MN">MN</option>
+                    <option value="MO">MO</option>
+                    <option value="MS">MS</option>
+                    <option value="MT">MT</option>
+                    <option value="NC">NC</option>
+                    <option value="NE">NE</option>
+                    <option value="NH">NH</option>
+                    <option value="NJ">NJ</option>
+                    <option value="NM">NM</option>
+                    <option value="NV">NV</option>
+                    <option value="NY">NY</option>
+                    <option value="ND">ND</option>
+                    <option value="OH">OH</option>
+                    <option value="OK">OK</option>
+                    <option value="OR">OR</option>
+                    <option value="PA">PA</option>
+                    <option value="RI">RI</option>
+                    <option value="SC">SC</option>
+                    <option value="SD">SD</option>
+                    <option value="TN">TN</option>
+                    <option value="TX">TX</option>
+                    <option value="UT">UT</option>
+                    <option value="VT">VT</option>
+                    <option value="VA">VA</option>
+                    <option value="WA">WA</option>
+                    <option value="WI">WI</option>
+                    <option value="WV">WV</option>
+                    <option value="WY">WY</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="zip"><b>Zip Code:</b></label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="zip" name="cust_address_zip" required="required" placeholder="Zip Code..">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="phone"><b>Phone:</b></label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="phone" name="customer_phone" required="required" placeholder="Phone..">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="bdate"><b>Birthdate:</b></label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="bdate" name="customer_bdate" required="required" placeholder="Birthdate..">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="email"><b>Email:</b></label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="email" name="customer_email" required="required" placeholder="Email Address..">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="email"><b>Reenter Email:</b></label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="re_email" name="customer_email_check" required="required" placeholder="Re-enter Email Address..">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="pwrd"><b>Password:</b></label>
+            </div>
+            <div class="col-75">
+                <input type="password" id="pwrd" name="customer_password" placeholder="Password..">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="pwrd2"><b>Password:</b></label>
+            </div>
+            <div class="col-75">
+                <input type="password" id="pwrd2" name="customer_password_check" placeholder="Re-enter Password..">
+            </div>
+        </div>
+        <input type="submit" name="submit" value="Submit"><br><br>
+</div>
+<!--<script>
+    var password = document.getElementById("customer_password")
+        , confirm_password = document.getElementById("customer_password_check");
+
+    function validatePassword(){
+        if(password.value != confirm_password.value) {
+            confirm_password.setCustomValidity("Passwords Don't Match");
+        } else {
+            confirm_password.setCustomValidity('');
+        }
+    }
+
+    password.onchange = validatePassword;
+    confirm_password.onkeyup = validatePassword;
+
+    var email = document.getElementById("customer_email")
+        , confirm_email = document.getElementById("customer_email_check");
+
+    function validateEmail(){
+        if(email.value != confirm_email.value) {
+            confirm_email.setCustomValidity("Passwords Don't Match");
+        } else {
+            confirm_email.setCustomValidity('');
+        }
+    }
+    email.onchange = validateEmail;
+    confirm_email.onkeyup = validateEmail;
+</script>-->

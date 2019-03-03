@@ -1,0 +1,50 @@
+<?php
+/**
+ * Trevor Kamin
+ * CIS 222 Project 1
+ *
+ * This website was used as my PHP w/ MYSQL course with professor Banks. It will
+ *be used in a production for Fancie That Candles. This is a complete online
+ * store, and will be fully functional when completed.
+ *
+ * PHP version 5.4.45
+ *
+ * @package    Fancie That Candles
+ * @author     Trevor Kamin
+ * @copyright  2018 Fancie That Candles
+ * @version    10/09/2018
+ * @link       https://cislinux.hfcc.edu/~tkamin/fancieThatCandles/index.php
+ */
+?>
+<br><br>
+<h1 class="cursive">Log In</h1>
+<hr>
+<input type="hidden" name="formtype" value="login">
+<div class="container">
+    <form>
+        <div class="row">
+            <div class="col-25">
+                <label for="email"><b>Email:</b></label>
+            </div>
+            <div class="col-75">
+                <input type="email" id="email" name="email" placeholder="Email Address..">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="pwrd"><b>Password:</b></label>
+            </div>
+            <div class="col-75">
+                <input type="password" id="pwrd" name="passwrd" placeholder="Password..">
+            </div>
+        </div>
+        <div class="row">
+            <input type="submit" name="submit" value="Log In"><br><br>
+        </div>
+        <br>
+        <div class="row">
+            <a id="regButton" href="index.php?page=register">Register</a>
+        </div>
+    </form>
+</div>
+

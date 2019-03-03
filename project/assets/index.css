@@ -1,0 +1,181 @@
+/**
+ * Trevor Kamin
+ * CIS 222 Project 1
+ *
+ * This website was used as my PHP w/ MYSQL course with professor Banks. It will
+ * be used in production for Fancie That Candles. This is a complete online
+ * store, and will be fully functional when completed.
+ *
+ * PHP version 5.4.45
+ *
+ * @package    Fancie That Candles
+ * @author     Trevor Kamin
+ * @copyright  2018 Fancie That Candles
+ * @version    10/09/2018
+ * @link       https://cislinux.hfcc.edu/~tkamin/fancieThatCandles/index.php
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    background-color: #FCFC08;
+    position: relative;
+}
+h1.cursive {
+    font-family: Snell Roundhand, cursive;
+}
+p.error1 {
+    color: red;
+    font-size: 40pt;
+}
+p.error3 {
+    font-size: 25pt;
+}
+
+p.about {
+    font-size: 20pt;
+}
+
+p.products {
+    font-size: 15pt;
+}
+label {
+    color: white;
+}
+#prodinfo {
+    font-size: 15pt;
+}
+* {
+    box-sizing: border-box;
+}
+
+input[type=text], input[type=password], input[type=email], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    resize: vertical;
+    background-color: lightgoldenrodyellow;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-size: 15px;
+}
+
+input[type=submit] {
+    background-color: #FCFC08;
+    color: black;
+    padding: 12px 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    width: 10%;
+}
+
+#regButton, #loginButton {
+    text-decoration: none;
+    background-color: #FCFC08;
+    color: black;
+    padding: 12px 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    width: 10%;
+}
+
+input[type=submit]:hover, #loginButton:hover, #regButton:hover {
+    background-color: lightgoldenrodyellow;
+    box-shadow: 0 5px 15px rgba(241, 238, 80, 0.94);
+}
+
+.container {
+    border-radius: 5px;
+    background-color: mediumblue;
+    padding: 20px;
+}
+
+.col-25 {
+    float: left;
+    width: 20%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 80%;
+    margin-top: 6px;
+}
+
+/* Locking header and footer */
+header.lock_header {
+    /*position: fixed;*/
+}
+
+footer.lock_footer {
+    position: fixed;
+    right: 0;bottom:0;left:0;
+    width: 100%;
+    background-color: #FCFC08;
+    color: darkblue;
+    text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit], a {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+/* Style the navigation bar */
+.navbar {
+    /*position: fixed;*/
+    width: 100%;
+    /*background-color: mistyrose;*/
+    overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+    background-color: lightgoldenrodyellow;
+}
+
+/* Current/active navbar link */
+.active {
+    background-color: lightgoldenrodyellow;
+}
+
+.active:visited {
+    background-color: lightgoldenrodyellow;
+}
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+    }
+}
