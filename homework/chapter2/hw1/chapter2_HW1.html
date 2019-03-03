@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="modernizr.custom.05819.js"></script>
+    <script src="bmi.js"></script>
+</head>
+<body>
+    <fieldset>
+        <legend style="font-weight: bold; font-size: 24px; padding: 10px; text-align: center;">BMI Calculator:</legend>
+        <form name="bmiForm">
+            Your Weight(lbs): <input type="text" name="weight" size="25" required><br />
+            Your Height(in): <input type="text" name="height" size="25" required><br />
+            <input type="button" value="Calculate BMI" onClick="calculateBmi()"><br />
+            Your BMI: <input type="text" name="bmi" size="25"><br />
+            This Means: <input type="text" name="meaning" size="25"><br />
+            <input type="reset" value="Reset" />
+        </form>
+    </fieldset>
+</body>
+</html>

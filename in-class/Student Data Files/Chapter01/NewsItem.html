@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC"-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-tramsitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>News Items</title>
+        <script type="text/javascript">
+            /*<![CDATA[*/
+                var newsItem1 = "L'AQUILA, ITALY (AP) - L'Aquila's chief prosicutor announced an investigation into allegations of shoddy construction as workers continue to scour the rubble for people still missing after a devistating earthquake five days ago. http://in.reuters.com/article/idUSWBT01103020090411";
+                var newsItem2 = "WASHINGTON (Reuters) - President Barack Obama said on Friday the recession-hit US economy was showing 'glimmers of hope' despite remaining under strain and promised further steps in coming weeks to tackle the financial crisis.http://in.reuters.com/article/idUSWBT01103020090411";
+                var newsItem3 = "(eWeek.com) - Apple is close to hitting 1 billion downloads from its App Store and plans a prize giveaway forwhoever downloads the billionth application that includes MacBook Pro and iPod Touch. http://www.eweek.com/c/a/Application-Development/eWeek-Newsbreak-Aptil-13-2009/";
+                var newsItem4 = "ATLANTA (AP)- Chipper Jones drove in two runs, including the tiebreaking single, and the Atlanta Braves beat Washington 8-5 on Sunday to hand the Nationals their sixth straight loss to start the season.http://www.newsvine.com/_news/2009/04/11/2667835-jones-braves-beat-winless-nationals-8-5?category=sports";
+                var newsItem5 = "ATLANTA (AP) - The Washington Nationals would like a restart. The Atlanta Braves just want the winning pace they've set during the first week of the season.http://sports.yahoo.com/mlb/recap?gid=290412115";
+           /* ]]> */
+        </script>
+</head>
+<body>
+    <form action="" name="newsHeadlines">
+        <table border="0" width="100%">
+            <tr valign="top">
+                <td>
+                    <select name="headline" multiple="multiple" style="height: 93px">
+                        <option onclick="document.newsHeadlines.news.value=newsItem1">Investigation of building standards in quake zone</option>
+                        <option onclick="document.newsHeadlines.news.value=newsItem2">Obama sees signs of economic progress</option>
+                        <option onclick="document.newsHeadlines.news.value=newsItem3">Apple App Downloads Approach 1 Billion</option>
+                        <option onclick="document.newsHeadlines.news.value=newsItem4">Jones, Braves beat winless Natiopnals 8-5</option>
+                        <option onclick="document.newsHeadlines.news.value=newsItem5">America's uninsured haven't shown collective power</option>
+                    </select>
+                </td>
+                <td>
+                    <textarea name="news" cols="50" rows="10" style="background-color:Transparent"></textarea>
+                </td>
+            </tr>
+        </table>
+    
+    </form>
+</body>
+</html>

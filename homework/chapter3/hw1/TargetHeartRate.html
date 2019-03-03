@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+
+   <!--
+      JavaScript 6th Edition
+      Chapter 3
+      Homework 1
+
+      Author: Trrevor Kamin
+      Date: 2-14-2019
+
+      Filename: TargetHeartRate.html
+   -->
+<head>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>Target Heart Rate</title>
+   <link rel="stylesheet" href="styles.css" />
+   <script src="modernizr.custom.05819.js"></script>
+</head>
+<html>
+<form name="thr">
+<br>
+Enter your age:
+<br>
+<input type="text" name="age" size="10">
+<br><br>
+<input type="button" value="Calculate" onClick="calcHeartRate()">
+&nbsp; &nbsp;
+<input type="text" id="result" size="50">
+</form>
+
+<script type="text/javascript">
+function calcHeartRate() 
+{
+    var age=parseInt(thr.age.value);
+    var heartrate=220-age;
+    var min=heartrate*.5;
+    var max=heartrate*.85;
+    //ans=document.write(min+" to "+max+" beats per min");
+    document.getElementById("result").value = ("Your target heart rate is " + min + " to " + max + " beats per min.");
+}
+</script>
+</html>

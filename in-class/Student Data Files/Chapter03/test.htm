@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<!--<html>
+<head>
+   <!--
+      JavaScript 6th Edition
+      Chapter 3
+      Hands-on Project 3-1
+
+      Author: Trrevor Kamin
+      Date: 1-29-19
+
+      Filename: index.htm
+   
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>Target Heart Rate</title>
+   <link rel="stylesheet" href="styles.css" />
+   <script src="modernizr.custom.05819.js"></script>
+</head>
+
+<body>
+   <header>
+      <h1>
+         Target Heart Rate
+      </h1>
+   </header>
+
+   <article>
+      <h2>Enter your age:</h2>
+      <form>
+         <input type="text" id="age">
+          <input type="button" value="Submit" id="sButton" />
+      </form>
+      <div>
+         <p id="total"></p>
+      </div>
+   </article>
+    <script>
+        function calcHeartRate( ) 
+        {
+            
+            var age = document.getElementsById("age");
+            function calcHeartRate(age) {
+            var hrMax = 220 - age,
+                hrRest = 70,
+                result = ((hrMax - hrRest) * intensity) + hrRest;
+
+            return result;
+}
+            
+            document.getElementById("result").innerHTML = "result";
+        }
+        var submitButton = document.getElementById("sButton");
+        if(submitButton.addEventListener)
+        {
+            submitButton.addEventListener("click", calcHeartRate, false);
+        }
+        else if(submitbutton.attachEvent)
+        {
+            submitButton.attachEvent("onclick", calcHeartRate);
+        }
+    </script>
+</body>
+</html>-->
+<html>
+<form name="thr">
+<br>
+Enter your age:
+<br>
+<input type="text" name="age" size="10">
+<br><br>
+<input type="button" value="Calculate" onClick="calcHeartRate()">
+&nbsp; &nbsp;
+<input type="text" id="result" size="30">
+</form>
+
+<script type="text/javascript">
+function calcHeartRate() 
+{
+    var age=parseInt(thr.age.value);
+    var heartrate=220-age;
+    var min=heartrate*.5;
+    var max=heartrate*.85;
+    //ans=document.write(min+" to "+max+" beats per min");
+    document.getElementById("result").value = (min + " to " + max + "beats per min");
+}
+</script>
+</html>
