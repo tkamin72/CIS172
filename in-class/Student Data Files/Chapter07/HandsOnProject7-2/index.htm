@@ -6,8 +6,8 @@
       Chapter 7
       Hands-on Project 7-2
 
-      Author: 
-      Date:   
+      Author: Trevor Kamin
+      Date: 3-19-2019
 
       Filename: index.htm
    -->
@@ -24,7 +24,6 @@
          Hands-on Project 7-2
       </h1>
    </header>
-
    <article>
       <h2>Day of the Week Lookup</h2>
       <form>
@@ -43,5 +42,36 @@
           </fieldset>
      </form>
    </article>
+    <script>
+        var selection = document.getElementById("dateSelected");
+        var result = document.getElementById("day");
+        var allDaysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+        var selectDate;
+        var dayOfWeekNumber;
+        var dayOfWeekName;
+        function lookUpDay(){
+            selectDate = new Date(selection.value);
+            selectDate.setUTCHours(12);
+            dayOfWeekNumber = selectDate.getUTCDay();
+            dayOfWeekName = allDaysOfWeek[dayOfWeekNumber];
+            result.innerHTML = dayOfWeekName;
+        }
+        //add event listener to find day button and clear form
+        function createEventListener() {
+            var submnitButton = document.getElementById("determineDay");
+            if (submnitButton.addEventListener) {
+                submnitButton.addEventListener("click", lookUpDay, false);
+            } else if (submnitButton.attachEvent) {
+                submnitButton.attachEvent("onclick", lookUpDay);
+            }
+            document.getElementById("dateSelected").value = "";//clear last starting value with rerload
+            document.getElementById("day").innerHTML = "";//clear previous results on reload
+            }
+            if(window.addEventListener){
+            window.addEventListener("load", createEventListener, false);
+            } else if (window.attachEvent) {
+
+            }
+    </script>
 </body>
 </html>

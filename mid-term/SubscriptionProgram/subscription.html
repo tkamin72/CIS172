@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html >
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>Central Valley Technology</title>
+    <link href="cvtech.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript">
+	
+	ENTER CODE HERE
+</script>
+
+</head>
+<body>
+    <div class="c9">
+        <table border="0" cellpadding="0" cellspacing="0" class="c1" width="780">
+            <tr>
+                <td height="19" colspan="3">
+                    <img border="0" src="Images/cmpnylogo.gif" width="313" height="45" alt="Visual formatting image" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <img border="0" src="Images/blckwhtstrp.gif" width="780" height="7" alt="Visual formatting image" />
+                </td>
+            </tr>
+            <tr>
+                <td class="c2" height="19" colspan="3" align="right">
+                    <table border="0" cellpadding="0" cellspacing="0" class="c1">
+                        <tr>
+                            <td>
+                                <img border="0" src="Images/cmpny.gif" width="58" height="31" alt="Visual formatting image" />
+                            </td>
+                            <td>
+                                <img border="0" src="Images/prds.gif" width="64" height="31" alt="Visual formatting image" />
+                            </td>
+                            <td>
+                                <img border="0" src="Images/srvc.gif" width="59" height="31" alt="Visual formatting image" />
+                            </td>
+                            <td>
+                                <img border="0" src="Images/chnprt.gif" width="110" height="31" alt="Visual formatting image" />
+                            </td>
+                            <td>
+                                <img border="0" src="Images/spprt.gif" width="54" height="31" alt="Visual formatting image" />
+                            </td>
+                            <td>
+                                <img border="0" src="Images/lgn.gif" width="95" height="31" alt="Visual formatting image" />
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" height="4">
+                    <img border="0" src="Images/blustrp.gif" width="780" height="4" alt="Visual formatting image" />
+                </td>
+            </tr>
+            <tr>
+                <td height="166">
+                    <img border="0" src="Images/smn1.jpg" width="265" height="166" alt="Visual formatting image" />
+                </td>
+                <td height="166">
+                    <img border="0" src="Images/smn2.jpg" width="255" height="166" alt="Visual formatting image" />
+                </td>
+                <td height="166">
+                    <img border="0" src="Images/smn3.jpg" width="260" height="166" alt="Visual formatting image" />
+                </td>
+            </tr>
+            <tr>
+                <td height="35">
+                    <img border="0" src="Images/smn1a.jpg" width="265" height="35" alt="Visual formatting image" />
+                </td>
+                <td height="35">
+                    <img border="0" src="Images/smn2a.jpg" width="255" height="35" alt="Visual formatting image" />
+                </td>
+                <td height="35">
+                    <img border="0" src="Images/smn3a.jpg" width="260" height="35" alt="Visual formatting image" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" height="31">
+                    <img border="0" src="Images/orngblckstrp.gif" width="780" height="31" alt="Visual formatting image" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <img border="0" src="Images/grystrp.gif" width="780" height="7" alt="Visual formatting image" />
+                </td>
+            </tr>
+            <tr>
+                <td height="19" colspan="3">
+                    <div class="c10">
+                        <h1>
+                            Technology Journal Subscription Form</h1>
+                        <h2>
+                            Customer Information</h2>
+                        <form action="FormProcessor.html" method="get" enctype="application/x-www-form-urlencoded"
+                        onsubmit="return confirmSubmit();" onreset="return confirmReset();">
+                        <table border="0">
+                            <tr>
+                                <td valign="top">
+                                    <h3>
+                                        Billing Information</h3>
+                                    <p>
+                                        Name<br />
+                                        <input type="text" name="name_billing" size="56" /></p>
+                                    <p>
+                                        Address<br />
+                                        <input type="text" name="address_billing" size="56" /></p>
+                                    <p>
+                                        City, State, Zip<br />
+                                        <input type="text" name="city_billing" size="34" />
+                                        <input type="text" name="state_billing" size="2" maxlength="2" />
+                                        <input type="text" name="zip_billing" size="10" maxlength="10" onchange="return checkForNumber(event, this.value);" /></p>
+                                    <p>
+                                        <input type="checkbox" onclick="sameShippingInfo();" />
+                                        Same shipping information</p>
+                                </td>
+                                <td>&nbsp;</td>
+                                <td valign="top">
+                                    <h3>
+                                        Shipping Information</h3>
+                                    <p>
+                                        Name<br />
+                                        <input type="text" name="name_shipping" size="56" /></p>
+                                    <p>
+                                        Address<br />
+                                        <input type="text" name="address_shipping" size="56" /></p>
+                                    <p>
+                                        City, State, Zip<br />
+                                        <input type="text" name="city_shipping" size="34" />
+                                        <input type="text" name="state_shipping" size="2" maxlength="2" />
+                                        <input type="text" name="zip_shipping" size="10" maxlength="5" onblur="return checkForNumber(event, this.value);" /></p>
+                                </td>
+                            </tr>
+                        </table>
+                        <p>
+                            Telephone<br />
+                            (<input type="text" name="area" size="3" maxlength="3" onblur="return checkForNumber(this.value);" />)
+                            <input type="text" name="exchange" size="3" maxlength="3" onblur="return checkForNumber(this.value);" />
+                            <input type="text" name="phone" size="4" maxlength="4" onblur="return checkForNumber(this.value);" /></p>
+                        <p>
+                            User name<br />
+                            <input type="text" name="userName" size="50" /></p>
+                        <p>
+                            Password<br />
+                            <input type="password" name="password" size="50" /></p>
+                        <p>
+                            Confirm password<br />
+                            <input type="password" name="password_confirm" size="50" onblur="confirmPassword();" /></p>
+                        
+                        <p>
+                            <input type="submit" value="Submit" />&nbsp;<input type="reset" /></p>
+                        </form>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="c5" height="19" colspan="3"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

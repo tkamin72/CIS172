@@ -6,8 +6,8 @@
       Chapter 7
       Hands-on Project 7-1
 
-      Author: 
-      Date:   
+      Author: Trevor Kamin
+      Date:  3-19-2019
 
       Filename: index.htm
    -->
@@ -43,5 +43,34 @@
           </fieldset>
      </form>
    </article>
+   <script>
+       //Declaring variables
+       var valueElement = document.getElementById("value");
+       var resultElement = document.getElementById("sqRoot");
+       //function to produce a square root
+       function convert() {
+           var root = Math.sqrt(valueElement.value);
+           resultElement.innerHTML = root.toFixed(2);
+       }
+       //add event listener to calculate square root button and clear form
+       function createEventListener() {
+           var submitButton = document.getElementById("convertButton");
+           if (submitButton.addEventListener) {
+               submitButton.addEventListener("click", convert, false);
+           } else if (submitButton.attachEvent) {
+               submitButton.attachEvent("onclick", convert);
+           }
+           //clear last starting value
+           document.getElementById('value').value = "";
+           //clear previous results
+           document.getElementById('sqRoot').innerHTML = "";
+       }
+       if(window.addEventListener) {
+           window.addEventListener("load", createEventListener, false);
+       }
+       else if(window.addEventListener) {
+           window.addEventListener("load", createEventListener, false);
+       }
+   </script>
 </body>
 </html>

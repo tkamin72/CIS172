@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<ul id="myList1"><li>JavaScript</li><li>PHP</li><li>HTML</li><li>JQuery</li></ul>
+<ul id="myList2"><li>ASP</li><li>JSON</li><li>CSS</li><li>Python</li></ul>
+<ul id="myList3"><li>Browsers</li><li>Frameworks</li><li>Databases</li><li>API</li></ul>
+
+<p>Click the button to move an item from one list to another.</p>
+
+<button onclick="myFunction()">Try it</button>
+<button onclick="myFunctionToo()">Try it again</button>
+
+<script>
+
+//Function that will add myList2, element by element to myList1 using a node
+function myFunction() {
+   var node = document.getElementById("myList3").lastChild;
+   document.getElementById("myList2").appendChild(node);
+}
+
+//Function that will add myList3, element by element to myList2 using a node
+function myFunctionToo() {
+    var node = document.getElementById("myList2").lastChild;
+    document.getElementById("myList1").appendChild(node);
+}
+</script>
+
+</body>
+</html>

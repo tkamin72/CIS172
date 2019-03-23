@@ -60,4 +60,3 @@
     }
 
     require('includes/footer.phtml');
-
