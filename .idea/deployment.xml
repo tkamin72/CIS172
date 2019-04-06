@@ -5,7 +5,7 @@
       <paths name="cislinux.hfcc.edu">
         <serverdata>
           <mappings>
-            <mapping deploy="/home/tkamin/public_html" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/home/tkamin/public_html" local="$PROJECT_DIR$" web="/~tkamin" />
           </mappings>
         </serverdata>
       </paths>

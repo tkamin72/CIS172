@@ -2,24 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a22345fb-fc69-48ca-ad22-a5c0823e8217" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/in-class/Student Data Files/Chapter06/Chapter/snoot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/in-class/Student Data Files/Chapter07/HandsOnProject7-4/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/in-class/Student Data Files/Chapter07/HandsOnProject7-5/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/in-class/Student Data Files/Chapter07/HandsOnProject7-5/modernizr.custom.65897.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/in-class/Student Data Files/Chapter07/HandsOnProject7-5/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/in-class/Student Data Files/Chapter07/HandsOnProject7-5/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/chapter 5/hw 1/concert1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/chapter 5/hw 1/concert2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/chapter 5/hw 1/concert3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/chapter 5/hw 1/concert4.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/chapter 5/hw 1/concert5.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/in-class/Student Data Files/Chapter06/Chapter/snoot.htm" beforeDir="false" afterPath="$PROJECT_DIR$/in-class/Student Data Files/Chapter06/Chapter/snoot.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/in-class/Student Data Files/Chapter07/HandsOnProject7-1/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/in-class/Student Data Files/Chapter07/HandsOnProject7-1/index.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/in-class/Student Data Files/Chapter07/HandsOnProject7-2/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/in-class/Student Data Files/Chapter07/HandsOnProject7-2/index.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/in-class/Student Data Files/Chapter07/HandsOnProject7-3/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/in-class/Student Data Files/Chapter07/HandsOnProject7-3/index.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/in-class/Student Data Files/Chapter07/HandsOnProject7-4/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/in-class/Student Data Files/Chapter07/HandsOnProject7-4/index.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/in-class/Student Data Files/Chapter08_data/HandsOnProject8-2/modernizr.custom.65897.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/in-class/Student Data Files/Chapter08_data/HandsOnProject8-2/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/chapter 5/hw 1/ConcertAds.html" beforeDir="false" afterPath="$PROJECT_DIR$/homework/chapter 5/hw 1/ConcertAds.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/chapter 5/hw 1/concertAds.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework/chapter 5/hw 1/concertAds.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/in-class/Student Data Files/Chapter03/HandsOnProject3-1/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/in-class/Student Data Files/Chapter03/HandsOnProject3-1/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/in-class/Student Data Files/Chapter08_data/HandsOnProject8-1/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/in-class/Student Data Files/Chapter08_data/HandsOnProject8-1/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/in-class/Student Data Files/Chapter08_data/HandsOnProject8-3/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/in-class/Student Data Files/Chapter08_data/HandsOnProject8-3/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/in-class/Student Data Files/Chapter08_data/HandsOnProject8-4/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/in-class/Student Data Files/Chapter08_data/HandsOnProject8-4/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/in-class/Student Data Files/Chapter09/HandsOnProject9-1/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/in-class/Student Data Files/Chapter09/HandsOnProject9-1/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/in-class/Student Data Files/Chapter09/HandsOnProject9-1/preview.htm" beforeDir="false" afterPath="$PROJECT_DIR$/in-class/Student Data Files/Chapter09/HandsOnProject9-1/preview.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/in-class/Student Data Files/Chapter09/HandsOnProject9-2/results.htm" beforeDir="false" afterPath="$PROJECT_DIR$/in-class/Student Data Files/Chapter09/HandsOnProject9-2/results.htm" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,14 +34,30 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="tkamin@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="tkamin@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="tkamin@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="tkamin: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="910709287">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.14" value="1" />
@@ -56,38 +68,46 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="5" />
-          <entry key="htm" value="9" />
-          <entry key="html" value="7" />
-          <entry key="js" value="5" />
+          <entry key="DATABASE/38583420-52f7-486f-af15-2c09e0b26c09" value="1" />
+          <entry key="css" value="6" />
+          <entry key="fileUpload" value="2" />
+          <entry key="htm" value="10" />
+          <entry key="html" value="10" />
+          <entry key="js" value="7" />
           <entry key="php" value="1" />
+          <entry key="product" value="1" />
+          <entry key="products" value="1" />
+          <entry key="sql" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="5" />
-          <entry key="HTML" value="16" />
-          <entry key="JavaScript" value="5" />
+          <entry key="CSS" value="6" />
+          <entry key="Database Element" value="4" />
+          <entry key="HTML" value="20" />
+          <entry key="JavaScript" value="7" />
           <entry key="PHP" value="1" />
+          <entry key="Scratch" value="1" />
+          <entry key="UML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="29" />
-          <entry key="htm" value="1038" />
+          <entry key="htm" value="1051" />
           <entry key="html" value="2314" />
           <entry key="js" value="1002" />
           <entry key="php" value="8" />
-          <entry key="txt" value="18" />
+          <entry key="txt" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="29" />
-          <entry key="HTML" value="3352" />
+          <entry key="HTML" value="3365" />
           <entry key="JavaScript" value="1002" />
           <entry key="PHP" value="8" />
-          <entry key="PLAIN_TEXT" value="18" />
+          <entry key="PLAIN_TEXT" value="24" />
         </counts>
       </usages-collector>
     </session>
@@ -95,21 +115,17 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/in-class/Student Data Files/Chapter07/HandsOnProject7-4/script.js">
+        <entry file="file://$PROJECT_DIR$/mid-term/Nodelist/nodelist.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            <state relative-caret-position="450">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/in-class/Student Data Files/Chapter07/HandsOnProject7-5/index.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-682">
-              <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/homework/chapter 5/hw 1/concertAds.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -143,6 +159,7 @@
         <option value="$PROJECT_DIR$/in-class/Student Data Files/Chapter07/HandsOnProject7-4/index.htm" />
         <option value="$PROJECT_DIR$/in-class/Student Data Files/Chapter07/HandsOnProject7-4/script.js" />
         <option value="$PROJECT_DIR$/in-class/Student Data Files/Chapter07/HandsOnProject7-5/index.htm" />
+        <option value="$PROJECT_DIR$/in-class/Student Data Files/Chapter03/HandsOnProject3-1/index.htm" />
       </list>
     </option>
   </component>
@@ -156,9 +173,10 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="826" />
+    <option name="x" value="10" />
+    <option name="y" value="35" />
+    <option name="width" value="1336" />
+    <option name="height" value="822" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -181,72 +199,26 @@
             <path>
               <item name="CIS172" type="b2602c69:ProjectViewProjectNode" />
               <item name="CIS172" type="462c0819:PsiDirectoryNode" />
-              <item name="in-class" type="462c0819:PsiDirectoryNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter 5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CIS172" type="b2602c69:ProjectViewProjectNode" />
               <item name="CIS172" type="462c0819:PsiDirectoryNode" />
-              <item name="in-class" type="462c0819:PsiDirectoryNode" />
-              <item name="Student Data Files" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CIS172" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CIS172" type="462c0819:PsiDirectoryNode" />
-              <item name="in-class" type="462c0819:PsiDirectoryNode" />
-              <item name="Student Data Files" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter06" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CIS172" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CIS172" type="462c0819:PsiDirectoryNode" />
-              <item name="in-class" type="462c0819:PsiDirectoryNode" />
-              <item name="Student Data Files" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter06" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CIS172" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CIS172" type="462c0819:PsiDirectoryNode" />
-              <item name="in-class" type="462c0819:PsiDirectoryNode" />
-              <item name="Student Data Files" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter06" type="462c0819:PsiDirectoryNode" />
-              <item name="HandsOnProject6-1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CIS172" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CIS172" type="462c0819:PsiDirectoryNode" />
-              <item name="in-class" type="462c0819:PsiDirectoryNode" />
-              <item name="Student Data Files" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter07" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CIS172" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CIS172" type="462c0819:PsiDirectoryNode" />
-              <item name="in-class" type="462c0819:PsiDirectoryNode" />
-              <item name="Student Data Files" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter07" type="462c0819:PsiDirectoryNode" />
-              <item name="HandsOnProject7-3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CIS172" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CIS172" type="462c0819:PsiDirectoryNode" />
-              <item name="in-class" type="462c0819:PsiDirectoryNode" />
-              <item name="Student Data Files" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter07" type="462c0819:PsiDirectoryNode" />
-              <item name="HandsOnProject7-4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CIS172" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CIS172" type="462c0819:PsiDirectoryNode" />
-              <item name="in-class" type="462c0819:PsiDirectoryNode" />
-              <item name="Student Data Files" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter07" type="462c0819:PsiDirectoryNode" />
-              <item name="HandsOnProject7-5" type="462c0819:PsiDirectoryNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter 5" type="462c0819:PsiDirectoryNode" />
+              <item name="hw 1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CIS172" type="b2602c69:ProjectViewProjectNode" />
               <item name="CIS172" type="462c0819:PsiDirectoryNode" />
               <item name="mid-term" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CIS172" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CIS172" type="462c0819:PsiDirectoryNode" />
+              <item name="mid-term" type="462c0819:PsiDirectoryNode" />
+              <item name="Nodelist" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -258,7 +230,13 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -266,6 +244,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/in-class/Student Data Files/Chapter08_data/HandsOnProject8-2" />
       <recent name="$PROJECT_DIR$/in-class/Student Data Files/Chapter07/HandsOnProject7-5" />
       <recent name="$PROJECT_DIR$/project" />
     </key>
@@ -299,19 +278,20 @@
       <workItem from="1551188781348" duration="1425000" />
       <workItem from="1551621590819" duration="2509000" />
       <workItem from="1552185432783" duration="1918000" />
-      <workItem from="1552398676128" duration="8653000" />
+      <workItem from="1552398676128" duration="15511000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21870000" />
+    <option name="totallyTimeSpent" value="28728000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="826" extended-state="1" />
+    <frame x="10" y="35" width="1336" height="822" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20479134" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" weight="0.32876712" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -320,15 +300,16 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="File Transfer" order="12" visible="true" weight="0.32833788" />
+      <window_info anchor="bottom" id="File Transfer" order="12" weight="0.33013698" />
+      <window_info active="true" anchor="right" id="Remote Host" weight="0.32998455" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.17453505" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.1885626" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,13 +401,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mid-term/Nodelist/nodelist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/in-class/Student Data Files/Chapter06/Chapter/snoot.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -459,6 +433,13 @@
     <entry file="file://$PROJECT_DIR$/in-class/Student Data Files/Chapter07/HandsOnProject7-5/modernizr.custom.65897.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/in-class/Student Data Files/Chapter07/HandsOnProject7-5/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/in-class/Student Data Files/Chapter07/HandsOnProject7-4/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -466,12 +447,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/in-class/Student Data Files/Chapter07/HandsOnProject7-5/index.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-682">
-          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+    <entry file="file://$PROJECT_DIR$/in-class/Student Data Files/Chapter08_data/HandsOnProject8-2/modernizr.custom.65897.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="uml://DATABASE/38583420-52f7-486f-af15-2c09e0b26c09">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>38583420-52f7-486f-af15-2c09e0b26c09</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="392.5" y="219.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/38583420-52f7-486f-af15-2c09e0b26c09/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://38583420-52f7-486f-af15-2c09e0b26c09/schema/tkamin/table/products">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://38583420-52f7-486f-af15-2c09e0b26c09/schema/tkamin/table/product">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://38583420-52f7-486f-af15-2c09e0b26c09/schema/tkamin/table/fileUpload">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/in-class/Student Data Files/Chapter03/HandsOnProject3-1/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework/chapter 5/hw 1/concertAds.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/in-class/Student Data Files/Chapter08_data/HandsOnProject8-2/styles.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mid-term/Nodelist/nodelist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework/chapter 5/hw 1/concertAds.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
