@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a22345fb-fc69-48ca-ad22-a5c0823e8217" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/in-class/Student Data Files/Chapter08_data/HandsOnProject8-2/modernizr.custom.65897.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/in-class/Student Data Files/Chapter08_data/HandsOnProject8-2/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/chapter 5/hw 1/ConcertAds.html" beforeDir="false" afterPath="$PROJECT_DIR$/homework/chapter 5/hw 1/ConcertAds.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/chapter 5/hw 1/concertAds.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework/chapter 5/hw 1/concertAds.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/in-class/Student Data Files/Chapter03/HandsOnProject3-1/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/in-class/Student Data Files/Chapter03/HandsOnProject3-1/index.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/in-class/Student Data Files/Chapter08_data/HandsOnProject8-1/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/in-class/Student Data Files/Chapter08_data/HandsOnProject8-1/index.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/in-class/Student Data Files/Chapter08_data/HandsOnProject8-3/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/in-class/Student Data Files/Chapter08_data/HandsOnProject8-3/index.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/in-class/Student Data Files/Chapter08_data/HandsOnProject8-4/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/in-class/Student Data Files/Chapter08_data/HandsOnProject8-4/index.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/in-class/Student Data Files/Chapter09/HandsOnProject9-1/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/in-class/Student Data Files/Chapter09/HandsOnProject9-1/index.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/in-class/Student Data Files/Chapter09/HandsOnProject9-1/preview.htm" beforeDir="false" afterPath="$PROJECT_DIR$/in-class/Student Data Files/Chapter09/HandsOnProject9-1/preview.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/in-class/Student Data Files/Chapter09/HandsOnProject9-2/results.htm" beforeDir="false" afterPath="$PROJECT_DIR$/in-class/Student Data Files/Chapter09/HandsOnProject9-2/results.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mid-term/SubscriptionProgram/subscription.html" beforeDir="false" afterPath="$PROJECT_DIR$/mid-term/SubscriptionProgram/subscription.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,9 +48,10 @@
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -118,7 +106,7 @@
         <entry file="file://$PROJECT_DIR$/mid-term/Nodelist/nodelist.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -184,6 +172,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,19 +184,6 @@
               <item name="CIS172" type="b2602c69:ProjectViewProjectNode" />
               <item name="CIS172" type="462c0819:PsiDirectoryNode" />
               <item name="homework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CIS172" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CIS172" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter 5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CIS172" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CIS172" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter 5" type="462c0819:PsiDirectoryNode" />
-              <item name="hw 1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CIS172" type="b2602c69:ProjectViewProjectNode" />
@@ -224,7 +200,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -279,19 +254,19 @@
       <workItem from="1551621590819" duration="2509000" />
       <workItem from="1552185432783" duration="1918000" />
       <workItem from="1552398676128" duration="15511000" />
+      <workItem from="1554576709902" duration="684000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28728000" />
+    <option name="totallyTimeSpent" value="29412000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="35" width="1336" height="822" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20479134" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20788254" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32876712" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -305,11 +280,12 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="File Transfer" order="12" weight="0.33013698" />
-      <window_info active="true" anchor="right" id="Remote Host" weight="0.32998455" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32876712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" visible="true" weight="0.1885626" />
+      <window_info anchor="right" id="Remote Host" order="4" weight="0.32998455" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,9 +343,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
           <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -405,9 +378,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" selection-end-column="14" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -458,12 +428,13 @@
           <nodes />
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="392.5" y="219.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="393.0" y="220.0" />
           <SelectedNodes />
           <Categories>
             <Category>Key columns</Category>
             <Category>Columns</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -511,7 +482,7 @@
     <entry file="file://$PROJECT_DIR$/mid-term/Nodelist/nodelist.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
